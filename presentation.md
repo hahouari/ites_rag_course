@@ -73,10 +73,17 @@ Fine-tuning is a process of taking a pre-trained model to train it and tweak its
 
 ### What do we need to implement RAG System?
 
-- Large Language Model (e.g. OpenAI GPT-3 or Anthropic Sonnet)
-- Structured Data (e.g. in JSON format)
+- Large Language Model (e.g. OpenAI GPT-3, Anthropic Sonnet, or Google Gemini)
+- Structured Data
 - Embedding Model for Semantic Search
 - Database with vector storage & search capabilities
+
+---
+
+### What is scraping & structuring data?
+
+- Scraping: Extracting desired data from websites, PDFs, or APIs.
+- Structuring Data: Converting scraped data into a structured format (e.g. JSON, CSV, XML, Class Objects, etc).
 
 ---
 
