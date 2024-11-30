@@ -1,8 +1,8 @@
 services:
   surreal:
-    image: surrealdb/surrealdb:v2.1.0
+    image: surrealdb/surrealdb:v2.1.2
     user: root
-    container_name: ites_rag_course_surreal
+    container_name: practical_rag_course_surreal
     restart: always
     command: start
     env_file:
@@ -12,8 +12,8 @@ services:
     volumes:
       - ./data.db:/data.db
     networks:
-      - ites_rag_course_network
+      - practical_rag_course_network
 
 networks:
-  ites_rag_course_network:
-    name: ites_rag_course_network
+  practical_rag_course_network:
+    name: practical_rag_course_network
