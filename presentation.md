@@ -28,7 +28,7 @@ LLMs (or Large Language Models) are artificial intelligence models that are trai
 
 ### LLMs?
 
-They are general purpose AIs, unlike specialized AI models that can perform specific tasks (e.g. Face Recognition, OCR, etc.).
+They are considered as general purpose AIs, unlike specialized AI models that are designed to perform specific tasks (e.g. Face Recognition, OCR, etc.).
 
 ---
 
@@ -82,7 +82,7 @@ Fine-tuning is a process of taking a pre-trained model to train it and tweak its
 
 ### What is scraping & structuring data?
 
-- Scraping: Extracting desired data from websites, PDFs, or APIs.
+- Scraping: Extracting useful data from websites, PDFs, or APIs.
 - Structuring Data: Converting scraped data into a structured format (e.g. JSON, CSV, XML, Class Objects, etc).
 
 ---
